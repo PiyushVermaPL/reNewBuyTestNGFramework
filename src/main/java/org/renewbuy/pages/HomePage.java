@@ -147,16 +147,26 @@ public class HomePage extends BasePage{
     //verify Heading text
     public boolean headingHP(String heading) {
 
-        String headings = prop.getProperty("c_headingHP");
+        logger.info("Verifying heading on New Car Insurance Page:");
+        String headings = prop.getProperty("c_headingNCI");
         boolean flag = false;
-        if(heading.isEmpty()) {
-            logger.info("heading {} is taking from config. file", headings);
+        if (heading.isEmpty()) {
+            logger.info("Heading {} is taking from config. file", headings);
             flag = headingHP.getText().trim().equalsIgnoreCase(headings);
-            logger.info("Heading {} is present on Home Page:", headings);
-        } else {
-            logger.info("heading {} is taking from feature file", heading);
+            if (flag == true) {
+                logger.info("Heading {} is present On New Car Insurance Page", headings);
+            } else {
+                logger.info("Heading {} is not present On New Car Insurance Page", headings);
+            }
+        }
+        else {
+            logger.info("Heading {} is taking from Test", heading);
             flag = headingHP.getText().trim().equalsIgnoreCase(heading);
-            logger.info("Heading {} is present on Home Page:", heading);
+            if (flag == true) {
+                logger.info("Heading {} is present On New Car Insurance Page", heading);
+            } else {
+                logger.info("Heading {} is not present On New Car Insurance Page", heading);
+            }
         }
         return flag;
     }
@@ -164,7 +174,7 @@ public class HomePage extends BasePage{
     //verify RenewBuy logo
     public boolean logoHP() {
 
-        logger.info("Verifying Logo on Home Page:");
+        logger.info("Verifying RenewBuy Logo On Home Page:");
         return logoHP.isDisplayed();
     }
 

@@ -23,7 +23,7 @@ public class NewCarInsurancePage extends BasePage {
 
     //Verify Heading String1(D2C INSURANCE BROKING PVT. LTD.)
     @FindBy(xpath = "//div[@class='D2C_update']")
-    WebElement heading;
+    WebElement headingNCI;
 
     //Verify RenewBuy Logo
     @FindBy(xpath = "//a[@class='site-logo']")
@@ -189,9 +189,9 @@ public class NewCarInsurancePage extends BasePage {
     @FindBy(id = "bio_ep_close")
     WebElement popUpWindow;
 
-    //Select Hyundai Santro Modal(click)
-    @FindBy(xpath = "//li[contains(.,'HYUNDAI SANTRO 1.1 LP (1086 cc)(P)')]")
-    WebElement hyundaiSantro;
+    //Select Maruti WagonR Modal(click)
+    @FindBy(xpath = "//li[contains(.,'MARUTI WAGON R 1.0 LXI DUO (998 cc)(P)')]")
+    WebElement marutiWagonR;
 
     //"Type Your Vehicle Modal" Text Field
     @FindBy(xpath = "//input[@id='variant']")
@@ -208,18 +208,28 @@ public class NewCarInsurancePage extends BasePage {
 
 
     //Verify Heading String1(D2C INSURANCE BROKING PVT. LTD.)
-    public boolean verifyHeadingString1(String headings) {
+    public boolean verifyHeadingString1(String heading) {
 
+        logger.info("Verifying heading on New Car Insurance Page:");
+        String headings = prop.getProperty("c_headingNCI");
         boolean flag = false;
-        String headingHP = prop.getProperty("c_headingNCI");
-        if(headings.isEmpty()) {
-            logger.info("Verifying Heading {} is taking from config. file", headingHP);
-            flag = heading.getText().trim().equalsIgnoreCase(headingHP);
-            logger.info("Heading {} is present on New Car Insurance Home Page:", headingHP);
-        } else {
-            logger.info("Heading {} is taking from feature file", headings);
-            flag = heading.getText().trim().equalsIgnoreCase(headings);
-            logger.info("Heading {} is present on New Car Insurance Home Page:", headings);
+        if (heading.isEmpty()) {
+            logger.info("Heading {} is taking from config. file", headings);
+            flag = headingNCI.getText().trim().equalsIgnoreCase(headings);
+            if (flag == true) {
+                logger.info("Heading {} is present On New Car Insurance Page", headings);
+            } else {
+                logger.info("Heading {} is not present On New Car Insurance Page", headings);
+            }
+        }
+        else {
+            logger.info("Heading {} is taking from Test", heading);
+            flag = headingNCI.getText().trim().equalsIgnoreCase(heading);
+            if (flag == true) {
+                logger.info("Heading {} is present On New Car Insurance Page", heading);
+            } else {
+                logger.info("Heading {} is not present On New Car Insurance Page", heading);
+            }
         }
         return flag;
     }
@@ -587,7 +597,7 @@ public class NewCarInsurancePage extends BasePage {
             driver.switchTo().frame(0);
             vehicleModal.clear();
             vehicleModal.sendKeys(prop.getProperty("c_VehicleModalName"));
-            hyundaiSantro.click();
+            marutiWagonR.click();
             driver.switchTo().defaultContent();
         }
         else {
@@ -600,7 +610,7 @@ public class NewCarInsurancePage extends BasePage {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            hyundaiSantro.click();
+            marutiWagonR.click();
             driver.switchTo().defaultContent();
         }
     }
