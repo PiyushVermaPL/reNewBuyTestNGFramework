@@ -1,0 +1,7 @@
+
+a
+java:S2184M"FCast one of the operands of this multiplication operation to a "long".(ç·øÿÿÿÿ
+‘
+java:S1845"vRename field "wait" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(ƒÍ×¨úÿÿÿÿ
+{
+java:S1845T"`Rename method "wait" to prevent any misunderstanding/clash with field "wait" defined on line 26.(¿Şš’úÿÿÿÿ
