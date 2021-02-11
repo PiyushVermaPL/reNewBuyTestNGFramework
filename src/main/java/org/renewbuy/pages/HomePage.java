@@ -147,7 +147,7 @@ public class HomePage extends BasePage{
     //verify Heading text
     public boolean headingHP(String heading) {
 
-        String headings = prop.getProperty("c_heading");
+        String headings = prop.getProperty("c_headingHP");
         boolean flag = false;
         if(heading.isEmpty()) {
             logger.info("heading {} is taking from config. file", headings);
