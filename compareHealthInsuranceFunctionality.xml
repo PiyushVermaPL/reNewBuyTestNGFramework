@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/reNewBuyTestNGFramework/src/test/java/org/renewbuy/CompareHealthInsuranceFunctionality.java">
+        <parameter name="website" value="https://www.renewbuy.com"/>
+        <parameter name="headingHP" value="D2C INSURANCE BROKING PVT. LTD."/>
+        <parameter name="headingCHIP" value="D2C INSURANCE BROKING PVT. LTD."/>
+        <classes>
+            <class name="org.renewbuy.CompareHealthInsuranceFunctionality">
+                <methods>
+                    <include name="userOpenWebsite"/>
+                    <include name="userVerifyHeadingHP"/>
+                    <include name="userVerifyLogoHP"/>
+                    <include name="userClickOnCompareHealthInsurance"/>
+                    <include name="userVerifyHeadingCHIP"/>
+                    <include name="userVerifyLogoCHIP"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

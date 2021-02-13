@@ -214,21 +214,23 @@ public class NewCarInsurancePage extends BasePage {
         String headings = prop.getProperty("c_headingNCI");
         boolean flag = false;
         if (heading.isEmpty()) {
-            logger.info("Heading {} is taking from config. file", headings);
+
+            logger.info("Heading {} is taking from config. file:", headings);
             flag = headingNCI.getText().trim().equalsIgnoreCase(headings);
             if (flag == true) {
-                logger.info("Heading {} is present On New Car Insurance Page", headings);
+                logger.info("Heading {} is present On New Car Insurance Page:", headings);
             } else {
-                logger.info("Heading {} is not present On New Car Insurance Page", headings);
+                logger.info("Heading {} is not present On New Car Insurance Page:", headings);
             }
         }
         else {
-            logger.info("Heading {} is taking from Test", heading);
+
+            logger.info("Heading {} is taking from Test:", heading);
             flag = headingNCI.getText().trim().equalsIgnoreCase(heading);
             if (flag == true) {
-                logger.info("Heading {} is present On New Car Insurance Page", heading);
+                logger.info("Heading {} is present On New Car Insurance Page:", heading);
             } else {
-                logger.info("Heading {} is not present On New Car Insurance Page", heading);
+                logger.info("Heading {} is not present On New Car Insurance Page:", heading);
             }
         }
         return flag;
@@ -237,14 +239,14 @@ public class NewCarInsurancePage extends BasePage {
     //Verify RenewBuy Logo
     public boolean reNewBuyLogo() {
 
-        logger.info("Verifying RenewBuy Logo On New Car Insurance Home Page");
+        logger.info("Verifying RenewBuy Logo On New Car Insurance Home Page:");
         return logo.isDisplayed();
     }
 
     //Verify Banner Image
     public boolean bannerImage() {
 
-        logger.info("Verifying Banner Image On New Car Insurance Home Page");
+        logger.info("Verifying Banner Image On New Car Insurance Home Page:");
         return bannerImage.isDisplayed();
     }
 

@@ -1,24 +1,40 @@
-[INFO ] 2021-02-13 14:31:11.913 [main] TestBase - initializing browser set up for Test execution:
-[INFO ] 2021-02-13 14:31:11.921 [main] TestBase - Opening Chrome Browser:
-[INFO ] 2021-02-13 14:31:11.922 [main] TestBase - Chrome Property set:
-[INFO ] 2021-02-13 14:31:16.853 [main] TestBase - maximizing the browser window:
-[INFO ] 2021-02-13 14:31:17.041 [main] TestBase - defined implicitly and explicitly wait:
-[INFO ] 2021-02-13 14:31:17.236 [main] BasePage - launching url https://www.renewbuy.com is taking from feature file:
-[INFO ] 2021-02-13 14:31:22.300 [main] HomePage - Verifying heading on New Car Insurance Page:
-[INFO ] 2021-02-13 14:31:22.301 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
-[INFO ] 2021-02-13 14:31:23.843 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
-[INFO ] 2021-02-13 14:31:23.851 [main] HomePage - Verifying RenewBuy Logo On Home Page:
-[INFO ] 2021-02-13 14:31:23.967 [main] HomePage - Verifying that 'New Car Insurance' link is available:
-[INFO ] 2021-02-13 14:31:28.903 [main] NewCarInsurancePage - Verifying heading on New Car Insurance Page:
-[INFO ] 2021-02-13 14:31:28.905 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
-[INFO ] 2021-02-13 14:31:28.995 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
-[INFO ] 2021-02-13 14:31:29.000 [main] NewCarInsurancePage - Vehicle Modal Name is taking from test:
-[INFO ] 2021-02-13 14:31:30.351 [main] NewCarInsurancePage - Vehicle Purchasing Year is taking from feature file
-[INFO ] 2021-02-13 14:31:30.510 [main] NewCarInsurancePage - Verifying that 'Instant Quote' Button link is available:
-[INFO ] 2021-02-13 14:31:30.770 [main] NewCarInsuranceQuotePage - Verifying heading on New Car Insurance Quote Page:
-[INFO ] 2021-02-13 14:31:30.770 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
-[INFO ] 2021-02-13 14:31:32.034 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Quote Page
-[INFO ] 2021-02-13 14:31:42.043 [main] NewCarInsuranceQuotePage - Vehicle Name toyota fortuner is taking from Test
-[INFO ] 2021-02-13 14:31:53.394 [main] NewCarInsuranceQuotePage - Registered RTO up13 is taking from Test
-[INFO ] 2021-02-13 14:32:04.477 [main] NewCarInsuranceQuotePage - updating Date 25/Feb/2019 is taking from Test
-[INFO ] 2021-02-13 14:32:05.779 [main] BasePage - stop execution and closing the browser: 
+[INFO ] 2021-02-13 19:17:55.352 [main] TestBase - initializing browser set up for Test execution:
+[INFO ] 2021-02-13 19:17:55.361 [main] TestBase - Opening Chrome Browser:
+[INFO ] 2021-02-13 19:17:55.361 [main] TestBase - Chrome Property set:
+[INFO ] 2021-02-13 19:17:58.539 [main] TestBase - maximizing the browser window:
+[INFO ] 2021-02-13 19:17:58.701 [main] TestBase - defined implicitly and explicitly wait:
+[INFO ] 2021-02-13 19:17:58.829 [main] BasePage - launching url https://www.renewbuy.com is taking from feature file:
+[INFO ] 2021-02-13 19:18:02.815 [main] HomePage - Verifying heading on New Car Insurance Page:
+[INFO ] 2021-02-13 19:18:02.816 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 19:18:04.362 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
+[INFO ] 2021-02-13 19:18:04.371 [main] HomePage - Verifying RenewBuy Logo On Home Page:
+[INFO ] 2021-02-13 19:18:04.673 [main] HomePage - Verifying that 'New Car Insurance' link is available:
+[INFO ] 2021-02-13 19:18:08.554 [main] NewCarInsurancePage - Verifying heading on New Car Insurance Page:
+[INFO ] 2021-02-13 19:18:08.554 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test:
+[INFO ] 2021-02-13 19:18:08.620 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page:
+[INFO ] 2021-02-13 19:18:08.624 [main] NewCarInsurancePage - Vehicle Modal Name is taking from test:
+[INFO ] 2021-02-13 19:18:09.645 [main] NewCarInsurancePage - Vehicle Purchasing Year is taking from feature file
+[INFO ] 2021-02-13 19:18:09.846 [main] NewCarInsurancePage - Verifying that 'Instant Quote' Button link is available:
+[INFO ] 2021-02-13 19:18:10.109 [main] NewCarInsuranceQuotePage - Verifying heading on New Car Insurance Quote Page:
+[INFO ] 2021-02-13 19:18:10.110 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 19:18:11.138 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Quote Page
+[INFO ] 2021-02-13 19:18:21.142 [main] NewCarInsuranceQuotePage - Vehicle Name toyota fortuner is taking from Test
+[INFO ] 2021-02-13 19:18:32.181 [main] NewCarInsuranceQuotePage - Registered RTO up13 is taking from Test
+[INFO ] 2021-02-13 19:18:43.126 [main] NewCarInsuranceQuotePage - updating Date 25/Feb/2019 is taking from Test
+[INFO ] 2021-02-13 19:18:44.320 [main] BasePage - stop execution and closing the browser: 
+[INFO ] 2021-02-13 19:19:00.756 [main] TestBase - initializing browser set up for Test execution:
+[INFO ] 2021-02-13 19:19:00.768 [main] TestBase - Opening Chrome Browser:
+[INFO ] 2021-02-13 19:19:00.768 [main] TestBase - Chrome Property set:
+[INFO ] 2021-02-13 19:19:03.667 [main] TestBase - maximizing the browser window:
+[INFO ] 2021-02-13 19:19:03.835 [main] TestBase - defined implicitly and explicitly wait:
+[INFO ] 2021-02-13 19:19:03.926 [main] BasePage - launching url https://www.renewbuy.com is taking from feature file:
+[INFO ] 2021-02-13 19:19:05.955 [main] HomePage - Verifying heading on New Car Insurance Page:
+[INFO ] 2021-02-13 19:19:05.956 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 19:19:07.236 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
+[INFO ] 2021-02-13 19:19:07.246 [main] HomePage - Verifying RenewBuy Logo On Home Page:
+[INFO ] 2021-02-13 19:19:07.388 [main] HomePage - Verifying that 'Compare Health Insurance' link is available:
+[INFO ] 2021-02-13 19:19:11.341 [main] CompareHealthInsurancePage - Verifying Heading on Compare Health Insurance Page:
+[INFO ] 2021-02-13 19:19:11.342 [main] CompareHealthInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test:
+[INFO ] 2021-02-13 19:19:11.413 [main] CompareHealthInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is present on Compare Health Insurance Page:
+[INFO ] 2021-02-13 19:19:11.417 [main] CompareHealthInsurancePage - Verifying RenewBuy Logo On Compare Health Insurance Home Page:
+[INFO ] 2021-02-13 19:19:11.472 [main] BasePage - stop execution and closing the browser: 

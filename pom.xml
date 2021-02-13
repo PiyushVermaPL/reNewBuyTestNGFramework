@@ -43,6 +43,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>newCarInsuranceFunctionality.xml</suiteXmlFile>
+                       <suiteXmlFile>compareHealthInsuranceFunctionality.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <includes>
                      <!--   <include>**/Test*.java</include>  -->
