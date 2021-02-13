@@ -208,7 +208,7 @@ public class NewCarInsurancePage extends BasePage {
 
 
     //Verify Heading String1(D2C INSURANCE BROKING PVT. LTD.)
-    public boolean verifyHeadingString1(String heading) {
+    public boolean verifyHeadingNCIP(String heading) {
 
         logger.info("Verifying heading on New Car Insurance Page:");
         String headings = prop.getProperty("c_headingNCI");
@@ -590,10 +590,8 @@ public class NewCarInsurancePage extends BasePage {
     //"Type Your Vehicle Modal" Text Field
     public void enterVehicleModal(String fVehicleName) {
 
-        boolean flag = false;
-        flag = vehicleModal.isDisplayed();
         if(fVehicleName.isEmpty()) {
-            logger.info("Vehicle Modal Name is taking from config. file");
+            logger.info("Vehicle Modal Name is taking from config. file:");
             driver.switchTo().frame(0);
             vehicleModal.clear();
             vehicleModal.sendKeys(prop.getProperty("c_VehicleModalName"));
@@ -601,15 +599,10 @@ public class NewCarInsurancePage extends BasePage {
             driver.switchTo().defaultContent();
         }
         else {
-            logger.info("Vehicle Modal Name is taking from feature file");
+            logger.info("Vehicle Modal Name is taking from test:");
             driver.switchTo().frame(0);
             vehicleModal.clear();
             vehicleModal.sendKeys(fVehicleName);
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             marutiWagonR.click();
             driver.switchTo().defaultContent();
         }
@@ -618,8 +611,6 @@ public class NewCarInsurancePage extends BasePage {
     //"Purchasing Year" Text Field
     public void enterPurchasingYear(String fPurchasingYear) {
 
-        boolean flag = false;
-        flag = purchaseYear.isDisplayed();
         if(fPurchasingYear.isEmpty()) {
             logger.info("Vehicle Purchasing Year is taking from config. file");
             driver.switchTo().frame(0);
@@ -638,9 +629,9 @@ public class NewCarInsurancePage extends BasePage {
     public NewCarInsuranceQuotePage clickOnNewCarInsuranceQuoteButton() {
 
         logger.info("Verifying that 'Instant Quote' Button link is available:");
+        driver.switchTo().frame(0);
         boolean flag = false;
         flag = instantQuoteButton.isDisplayed();
-        driver.switchTo().frame(0);
         instantQuoteButton.click();
         return new NewCarInsuranceQuotePage(driver);
     }

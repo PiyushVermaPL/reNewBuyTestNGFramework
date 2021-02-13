@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/reNewBuyTestNGFramework/src/test/java/org/renewbuy/newCarInsuranceFunctionality.java">
+        <parameter name="website" value="https://www.renewbuy.com"/>
+        <parameter name="headingHP" value="D2C INSURANCE BROKING PVT. LTD."/>
+        <parameter name="headingNCIP" value="D2C INSURANCE BROKING PVT. LTD."/>
+        <parameter name="vehicleModalName" value="maruti wagon r"/>
+        <parameter name="purchasingYear" value="2020"/>
+        <parameter name="headingNCIQP" value="D2C INSURANCE BROKING PVT. LTD."/>
+        <parameter name="pauseExecution1" value="10"/>
+        <parameter name="changeVehicleModalName" value="toyota fortuner"/>
+        <parameter name="pauseExecution2" value="10"/>
+        <parameter name="changeRegisteredRTO" value="up13"/>
+        <parameter name="pauseExecution3" value="10"/>
+        <parameter name="updatedPurchasingDate" value="25"/>
+        <parameter name="updatedPurchasingMonth" value="Feb"/>
+        <parameter name="updatedPurchasingYear" value="2019"/>
+        <classes>
+            <class name="org.renewbuy.newCarInsuranceFunctionality">
+                <methods>
+                    <include name="userOpenWebsite"/>
+                    <include name="userVerifyHeadingHP"/>
+                    <include name="userVerifyLogoHP"/>
+                    <include name="userClickOnNewCarInsuranceLink"/>
+                    <include name="userVerifyHeadingNCIP"/>
+                    <include name="userEnterVehicleModalName"/>
+                    <include name="userEnterPurchasingYear"/>
+                    <include name="userClickOnInstantButton"/>
+                    <include name="userVerifyHeadingNCIQP"/>
+                    <include name="userWaitToLoadPage1"/>
+                    <include name="userEnterChangeVehicleModalName"/>
+                    <include name="userWaitToLoadPage2"/>
+                    <include name="userEnterChangeRegisteredRTO"/>
+                    <include name="userWaitToLoadPage3"/>
+                    <include name="userUpdatePurchasingDate"/>
+
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

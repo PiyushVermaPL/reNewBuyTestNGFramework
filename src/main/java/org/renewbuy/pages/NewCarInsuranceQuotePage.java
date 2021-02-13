@@ -216,7 +216,7 @@ public class NewCarInsuranceQuotePage extends BasePage {
 
 
     //Verify Heading String1(D2C INSURANCE BROKING PVT. LTD.)
-    public boolean verifyHeadingString1(String heading) {
+    public boolean verifyHeadingNCIQP(String heading) {
 
         logger.info("Verifying heading on New Car Insurance Quote Page:");
         String headings = prop.getProperty("c_headingNCIQP");

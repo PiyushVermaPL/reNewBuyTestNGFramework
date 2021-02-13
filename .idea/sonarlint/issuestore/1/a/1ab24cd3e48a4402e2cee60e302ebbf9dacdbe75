@@ -1,0 +1,53 @@
+
+L
+java:S1481¥")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8²ïÃù.
+F
+java:S1125ã"(Remove the literal "true" boolean value.(«¸ş•8¶ù.
+L
+java:S1481º")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8›Åù.
+L
+java:S1481Ø")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8ä‚Çù.
+F
+java:S1125ì"(Remove the literal "true" boolean value.(«¸ş•8ëü¶ù.
+L
+java:S1481Â")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481€")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8¥ô˜ù.
+L
+java:S1481Î")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8™±Æù.
+L
+java:S1481¡")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481„")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8ĞëÁù.
+L
+java:S1481Í")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481°")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8¾¹Äù.
+„
+java:S2178˜"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(Ê¸Éı8õÊËù.
+„
+java:S2178˜"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(Ê¸Éı8Ÿ•Êù.
+L
+java:S1481š")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8á‰Ãù.
+L
+java:S1481¬")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481ù")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8¬õ¾ù.
+L
+java:S1481Ø")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481ã")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481î")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8•Ø½ù.
+L
+java:S1481‹")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8Ôº™ù.
+L
+java:S1481Ä")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8ÂéÅù.
+L
+java:S1481·")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.
+L
+java:S1481ã")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8ÈÆÇù.
+L
+java:S1481")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8Œ¾Âù.
+L
+java:S1481–")Remove this unused "flag" local variable.(ŸÿáÑÿÿÿÿÿ8šæ¼ù.

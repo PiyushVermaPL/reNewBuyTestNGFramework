@@ -53,3 +53,13 @@ g
 7src/main/java/org/renewbuy/pages/CustomerLoginPage.java,b\c\bc308b79b3bf29fb06fecf4179cf4c28b41dc0eb
 ^
 .src/main/java/org/renewbuy/pages/HomePage.java,8\c\8c7705e5e52e1bb09332f949eccd6ca07a702fc0
+v
+Fsrc/main/java/org/renewbuy/pages/MultiYearTwoWheelerInsurancePage.java,7\1\714c136a1071e381e2536fbdf9b53a45f8db8182
+w
+Gsrc/main/java/org/renewbuy/pages/TwoWheelerInsuranceCalculatorPage.java,2\7\276ff3d1a7b654797d84272bfffce20d0acaa773
+n
+>src/main/java/org/renewbuy/pages/NewCarInsuranceQuotePage.java,1\a\1ab24cd3e48a4402e2cee60e302ebbf9dacdbe75
+l
+<src/test/java/org/renewbuy/newCarInsuranceFunctionality.java,3\9\396ec0835dfe5fbdfd7401f4c478f13e3adde312
+P
+ newCarInsuranceFunctionality.xml,7\1\7157c3aa677d02056757b347c9dd464449340ca5
