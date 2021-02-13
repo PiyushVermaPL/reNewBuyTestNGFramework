@@ -1,0 +1,24 @@
+[INFO ] 2021-02-13 14:31:11.913 [main] TestBase - initializing browser set up for Test execution:
+[INFO ] 2021-02-13 14:31:11.921 [main] TestBase - Opening Chrome Browser:
+[INFO ] 2021-02-13 14:31:11.922 [main] TestBase - Chrome Property set:
+[INFO ] 2021-02-13 14:31:16.853 [main] TestBase - maximizing the browser window:
+[INFO ] 2021-02-13 14:31:17.041 [main] TestBase - defined implicitly and explicitly wait:
+[INFO ] 2021-02-13 14:31:17.236 [main] BasePage - launching url https://www.renewbuy.com is taking from feature file:
+[INFO ] 2021-02-13 14:31:22.300 [main] HomePage - Verifying heading on New Car Insurance Page:
+[INFO ] 2021-02-13 14:31:22.301 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 14:31:23.843 [main] HomePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
+[INFO ] 2021-02-13 14:31:23.851 [main] HomePage - Verifying RenewBuy Logo On Home Page:
+[INFO ] 2021-02-13 14:31:23.967 [main] HomePage - Verifying that 'New Car Insurance' link is available:
+[INFO ] 2021-02-13 14:31:28.903 [main] NewCarInsurancePage - Verifying heading on New Car Insurance Page:
+[INFO ] 2021-02-13 14:31:28.905 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 14:31:28.995 [main] NewCarInsurancePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Page
+[INFO ] 2021-02-13 14:31:29.000 [main] NewCarInsurancePage - Vehicle Modal Name is taking from test:
+[INFO ] 2021-02-13 14:31:30.351 [main] NewCarInsurancePage - Vehicle Purchasing Year is taking from feature file
+[INFO ] 2021-02-13 14:31:30.510 [main] NewCarInsurancePage - Verifying that 'Instant Quote' Button link is available:
+[INFO ] 2021-02-13 14:31:30.770 [main] NewCarInsuranceQuotePage - Verifying heading on New Car Insurance Quote Page:
+[INFO ] 2021-02-13 14:31:30.770 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is taking from Test
+[INFO ] 2021-02-13 14:31:32.034 [main] NewCarInsuranceQuotePage - Heading D2C INSURANCE BROKING PVT. LTD. is present On New Car Insurance Quote Page
+[INFO ] 2021-02-13 14:31:42.043 [main] NewCarInsuranceQuotePage - Vehicle Name toyota fortuner is taking from Test
+[INFO ] 2021-02-13 14:31:53.394 [main] NewCarInsuranceQuotePage - Registered RTO up13 is taking from Test
+[INFO ] 2021-02-13 14:32:04.477 [main] NewCarInsuranceQuotePage - updating Date 25/Feb/2019 is taking from Test
+[INFO ] 2021-02-13 14:32:05.779 [main] BasePage - stop execution and closing the browser: 
